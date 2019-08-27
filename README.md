@@ -1,4 +1,4 @@
-# wine quality prediction using PLS ensemble model
+# wine quality prediction using PLS ensemble model in R
 
 In this repo, I show how to use artial least squares regression to make an emsemble model to predict wine quality. 
 
