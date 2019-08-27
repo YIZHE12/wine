@@ -78,3 +78,7 @@ The code of this mixed model is in Hand_crafted_model_part2.
 As the final task is to be able to run the entire ensemble model resulting from the training script through a single call to predict (model, newData=newData), I decide to use caret’s built-in function for the ensemble. As discussed earlier, using different data is the key to getting a good prediction here. In the ensemble model, I chose to do different preprocessing to create different datasets, including ‘expoTrans’, ‘pca’ and ‘YeoJohnson’. ‘expoTrans’ apply a power transform to change the data distribution. ‘pca’ perform principal component analysis on the data, and extract the principal components to replace the original data. ‘YeoJohnson’ is a method that commonly used to convert the data distribution to a normal distribution. From the EDA, I know that data is not normally distributed, therefore, it should be able to generate a new dataset by using the ‘YeoJohnson’ method.
 
 <img src = images/mae.png>
+
+## Other model to try
+Guassian process
+https://distill.pub/2019/visual-exploration-gaussian-processes/
